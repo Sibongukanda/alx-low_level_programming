@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet_x10 - Check description
- * Description: It prints 10 times 
+ * Description: It prints 10 times
  * Return: Nothing.
  */
 
