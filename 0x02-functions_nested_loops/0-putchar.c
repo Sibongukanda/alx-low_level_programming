@@ -1,19 +1,20 @@
-#include<stdio.h>
+#include "main.h"
 
 /**
- * Write a program that prints _putchar,
- * followed by a new line.
- * 
- * The program should return 0
- * */
+ * main - Entry point
+ * Return: Always 0
+ */
 
-int main()
+int main(void)
 {
-char name[] = "_putchar";
-for (int i = 0; i < 8; ++i)
-{
-putchar(name[i]);
-}
-printf("\n\n");
-return 0;
+  _putchar('_');
+  _putchar('p');
+  _putchar('u');
+  _putchar('t');
+  _putchar('c');
+  _putchar('h');
+  _putchar('a');
+  _putchar('r');
+  _putchar('\n');
+  return 0;
 }
