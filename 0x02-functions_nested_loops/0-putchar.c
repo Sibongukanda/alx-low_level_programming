@@ -1,20 +1,13 @@
-#include<stdio.h>
-#include "main.h"
+#include <unistd.h>
 
 /**
- * Write a program that prints _putchar,
- * followed by a new line.
- * 
- * The program should return 0
- * */
-
-int main()
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
 {
-char name[] = "_putchar";
-for (int i = 0; i < 8; ++i)
-{
-putchar(name[i]);
-}
-printf("\n\n");
-return 0;
+    return (write(1, &c, 1));
 }
