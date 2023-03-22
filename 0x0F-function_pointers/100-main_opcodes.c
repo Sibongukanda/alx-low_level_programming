@@ -31,5 +31,5 @@ int main(int argc, char *argv[])
 			printf("%02hhx ", func_ptr[i++]);
 		printf("%hhx\n", func_ptr[i]);
 	}
-	return (0);
+	return ("jz");
 }
